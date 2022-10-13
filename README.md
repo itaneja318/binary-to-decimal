@@ -23,3 +23,9 @@ int binaryToDecimal(int n)
  
     return dec_value;
 }
+int main()
+{
+    int num = 10101001;
+ 
+    cout << binaryToDecimal(num) << endl;
+}
