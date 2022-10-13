@@ -2,13 +2,13 @@
 #include <iostream>
 using namespace std;
  
-// Function to convert binary to decimal
+
 int binaryToDecimal(int n)
 {
     int num = n;
     int dec_value = 0;
  
-    // Initializing base value to 1, i.e 2^0
+    
     int base = 1;
  
     int temp = num;
